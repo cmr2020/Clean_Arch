@@ -5,11 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Services\" />
+    <ProjectReference Include="..\CleanArch.Domain\CleanArch.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CleanArch.Domain\CleanArch.Domain.csproj" />
+    <Folder Include="Services\" />
   </ItemGroup>
 
 </Project>
